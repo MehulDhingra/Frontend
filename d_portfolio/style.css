@@ -1,0 +1,414 @@
+* {
+    padding: none;
+
+    margin: 0;
+}
+
+.f-navbar {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    width: 100%;
+    height: 20vh;
+    list-style-type: none;
+    background-color: rgb(13, 13, 13);
+    align-items: center;
+    position: sticky;
+}
+
+.f-items {
+    color: rgb(184, 177, 177);
+    background-color: inherit;
+    padding: 3vw;
+    font-size: 1em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+#f-head {
+    text-decoration: solid;
+    font-size: 2em;
+    margin-left: 10vw;
+    letter-spacing: 0.1em;
+    font-weight: bold;
+    margin-right: 8vw;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#f1,
+#f2,
+#f3,
+#f4,
+#f5 {
+
+    color: rgb(184, 177, 177);
+    background-color: inherit;
+    padding: 3vw;
+    font-size: 1em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: relative;
+}
+
+#f1:hover,
+#f2:hover,
+#f3:hover,
+#f4:hover,
+#f5:hover {
+    color: azure;
+    margin-bottom: -2px;
+    margin-left: 0;
+    margin-right: 0;
+    border-bottom: 2px solid orange;
+}
+
+span {
+    color: orange;
+}
+
+a {
+    text-decoration: none;
+    color: inherit
+}
+
+.card {
+    color: white;
+    padding: 10vw;
+
+
+}
+
+#heading {
+    font-size: 2vw;
+    font-family: Black Ops One;
+    line-height: 3vw;
+    /* padding: 2vh; */
+}
+
+#pre-heading {
+    /* font-size: ; */
+    /* font-family:Arial, Helvetica, sans-serif; */
+    letter-spacing: 0.5vw;
+    line-height: 3vw;
+    /* padding: 2vh; */
+}
+
+#content {
+
+    padding-top: 2vh;
+    color: rgb(188, 179, 179);
+}
+
+.button-items {
+
+    border-radius: 5px;
+    margin-top: 4vh;
+    padding-right: 12vh;
+    margin-right: 12vh;
+    padding-top: 4vh;
+    background-color: orange;
+    border: none;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.button-items:hover {
+    box-shadow: 1px 1px 1px rgb(255, 250, 250);
+}
+
+.button {
+    margin-bottom: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+#button2 {
+
+    background-color: rgb(218, 211, 211);
+    text-align: center;
+}
+
+.main {
+    background-color: black;
+    display: flex;
+    width: auto;
+
+}
+
+#my_img {
+    padding: 3vw;
+    filter: grayscale(100%);
+    height: 80%;
+}
+
+.logos {
+    margin-left: auto;
+    justify-content: center;
+    align-items: flex-end;
+    display: flex;
+    flex-direction: column;
+    background: none;
+}
+
+.logo-items {
+    padding: 1vw;
+    border-radius: 50%;
+    height: 4vh;
+    width: 2.5vw;
+}
+
+.logo-items:hover {
+    box-shadow: 1px 1px 1px orange;
+    height: 4.5vh;
+    width: 3vw;
+}
+
+.clients {
+    border: 1px solid aqua;
+    color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(188, 178, 178);
+    height: 6rem;
+    width: 74%;
+
+    margin-top: 10%;
+    margin-left: 13%;
+    margin-right: 13%;
+}
+
+.client-items {
+    background-color: rgb(188, 178, 178);
+}
+
+#c-image {
+    background-color: rgb(188, 178, 178);
+    display: flex;
+    flex-direction: row;
+}
+
+.services {
+    display: flex;
+    flex-direction: row;
+    margin-top: 0px;
+    background-color: rgb(232, 231, 231);
+    height: 100%;
+    width: 100%;
+
+    /* justify-content:start; */
+}
+
+.services-items {
+    height: 60%;
+    width: 50%;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-bottom: 5%;
+    background-color: rgba(202, 202, 202, 0.988);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+
+}
+
+#services-pre-heading {
+    letter-spacing: 0.3vw;
+    line-height: 3vw;
+    font-weight: bolder;
+    text-shadow: 2px 2px 6px black;
+
+}
+
+#services-list {
+    color: rgb(255, 255, 255);
+}
+
+#services-heading {
+    font-size: 2vw;
+    /* text-decoration: ; */
+    font-family: Black Ops One;
+    line-height: 3vw;
+    color: rgb(0, 0, 0);
+}
+
+.data {
+    display: flex;
+    flex-direction: row;
+}
+
+.data-items {
+    margin: 9% 5% 5% 0%;
+}
+
+.service-images {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+
+}
+
+.service-image-items {
+    margin: 0.7rem;
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    height: 100%;
+    width: 100%;
+}
+
+#hayee-garmi-1 {
+    font-size: 1.5vw;
+    font-family: Black Ops One;
+
+}
+
+.section-3 {
+    background-color: rgb(0, 0, 0);
+    padding: 3rem;
+    
+
+}
+
+.top-1 {
+    color: orange;
+    text-align: center;
+    letter-spacing: 0.5vw;
+    line-height: 3vw;
+
+}
+
+.top-2 {
+
+    text-align: center;
+    color: white;
+    font-size: 2vw;
+    font-family: Black Ops One;
+    line-height: 3vw;
+    padding: 0.5rem;
+}
+
+.top-3 {
+    text-align: center;
+    color: rgb(112, 110, 110);
+}
+
+.section-3-box {
+    /* border: 1px solid red; */
+    /* margin: rem; */
+    padding: auto;
+    display: flex;
+    flex-direction: row;
+    /* border: 1px solid red; */
+    height: 29rem;
+
+    align-items: center;
+    justify-content: center;
+}
+
+.section-3-box-items {
+    padding-top: 2em;
+    padding: 4em;
+    height: 90%;
+    width: 60%;
+    /* border: 1px solid rgb(63, 189, 93); */
+}
+
+.section-3-box-items-left {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    /* border: 1px solid blue; */
+    align-items: center;
+    padding: 2em;
+
+}
+
+.section-3-box-left-items {
+    height: 40%;
+    width: 12em;
+    /* border: 1px solid rgb(246, 233, 233); */
+    display: flex;
+    flex-direction: column;
+    margin: 1em;
+}
+
+#head1 {
+    color: rgb(160, 160, 160);
+}
+
+#head2 {
+    padding: 0.3em 0.3em 0.3em 0em;
+    color: white;
+    /* text-align: center; */
+    letter-spacing: 0.2vw;
+    line-height: 2vw;
+    font-size: 1.2em;
+
+}
+
+#head3 {
+    color: orange;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+}
+
+.section-3-box-left{
+    display: flex;
+    flex-direction: row;
+    /* border: 1px solid red;   */
+}
+
+#image{
+    padding-top: 2.5em;
+    height:85% ;
+    width: 90%;
+    padding-left: 1em;
+}
+
+#section-heading-3{
+    font-size: 1.5em;
+    /* text-decoration: ; */
+    font-family: Black Ops One;
+    line-height: 3vw;
+    color: rgb(0, 0, 0);
+}
+
+.ss{
+    /* border: 1px solid black; */
+    border-radius: 5px;
+    background-color:rgb(81, 79, 76);
+    padding: 1em;
+}
+
+.vices {
+    display: flex;
+    flex-direction: row;
+    margin-top: 0px;
+    background-color: rgb(232, 231, 231);
+    height: 90%;
+    width: 98.7vw;
+    
+align-items: center;
+    /* justify-content:stret */
+}
+
+.vices-items {
+    height: 50%;
+    width: 30%;
+    padding: 2%;
+    
+    margin-top: 5%;
+    margin-right: 2%;
+    margin-left: 2%;
+    margin-bottom: 5%;
+    background-color: rgba(202, 202, 202, 0.988);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+
+}
